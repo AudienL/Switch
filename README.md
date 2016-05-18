@@ -4,6 +4,8 @@
 
 ## 效果图：
 
+![效果图](https://github.com/AudienL/Switch/blob/master/doc/demo.gif?raw=true)
+
 ## 使用：
 
 ### 一、在 project 根目录的 build.gradle 中添加：
@@ -19,9 +21,10 @@ allprojects {
 
 ### 二、在 module 根目录的 build.gradle 中添加：
 
+其中最后版本在 release 中查看，如：1.0
 ```groovy
 dependencies {
-    compile 'com.github.AudienL:Switch:1.0'
+    compile 'com.github.AudienL:Switch:最后版本'
 }
 ```
 
