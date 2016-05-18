@@ -16,7 +16,7 @@ import android.view.View;
 public class Switch extends View {
 
     /** 底层颜色 */
-    private int mBackColor = 0xFFBDC3C7;
+    private int mBackColor = 0x80BDC3C7;
     /** 圆圈的颜色 */
     private int mCircleColor = 0xFFFFFFFF;
     /** 选中时的主颜色 */
