@@ -17,11 +17,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mSwitch = (Switch) findViewById(R.id.my_switch);
+
+        // 设置监听器
         mSwitch.setOnCheckedChangeListener(new Switch.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(boolean isChecked) {
                 Log.i(TAG, "onCheckedChanged: is_checked=" + isChecked);
             }
         });
+
+        // 设置选中状态
+        mSwitch.setChecked(true);
     }
 }
